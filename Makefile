@@ -5,7 +5,10 @@
 ## Makefile
 ##
 
-SRC	=	exercise_zero.c
+SRC	=	file_a.c	\
+		file_b.c	\
+		file_c.c
+
 OBJ	=	$(SRC:.c=.o)
 
 NAME	=	libstring.a
